@@ -1,0 +1,68 @@
+.UploadsDisplay {
+    background-color: rgb(245, 245, 249);
+
+    /* Add properties below */
+    width: 400px;
+    min-height: 120px;
+    
+    border-bottom: 1px solid grey;
+
+}
+
+/* For the div that holds the tweet icon */
+.coverContainerProfile {
+
+    /* Add properties below */
+    width: 80px;
+    float: left;
+
+
+}
+
+.cover {
+
+    /* Add properties below */
+    border-radius: 15px;
+    width: 60px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+
+
+}
+
+.BookName {
+    margin: 0px;
+
+    /* Add properties below */
+    width: 300px;
+    float: right;
+
+
+}
+
+
+#publishBook {
+    background-color: #dcba5d;
+}
+
+
+#edit {
+    background-color: lightgreen;
+
+    margin-top: 10px;
+    margin-left: 5%;
+
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.buttons {
+    margin-left: 100px;
+}

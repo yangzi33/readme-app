@@ -1,0 +1,62 @@
+#commentList {
+    align-self: flex-start;
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.newLine {
+    white-space: pre-wrap;
+}
+
+.comment {
+    display: inline-block;
+    padding: 4%;
+    margin-bottom: 4%;
+    background-color: yellow;
+    opacity: 0.97;
+    width: 82%;
+    border: black solid 1px;
+}
+
+.userLogo {
+    border: purple solid 1px;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+
+.commentUser {
+    margin-left: 2.5%;
+    font-size: 1.1em;
+}
+
+.slightTopMargin {
+    margin-top: 3%;
+}
+
+.slighterTopMargin {
+    margin-top: 2%;
+}
+
+.removeComment {
+    font-size: 0.9em;
+    background-color: lightcoral;
+    color: darkred;
+    border: darkred solid 1px;
+    border-radius: 15%;
+}
+
+.removeComment:hover {
+    font-size: 0.9em;
+    background-color: darkred;
+    color: white;
+    border: white solid 1px;
+    border-radius: 15%;
+}
+
+#addComment {
+    width: 100%;
+    font-size: 0.9em;
+}

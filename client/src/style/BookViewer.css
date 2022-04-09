@@ -1,0 +1,42 @@
+#bookViewBackground {
+    #background-color: white;
+    background-image: url("../../src/assets/Background-4.png");
+    background-size: cover;
+    /* height: 100%; */
+    min-height: 100%;
+}
+
+#page {
+    background-image: url("../../src/assets/PaperTexture.png");
+    background-size: cover;
+    min-height: 90%;
+
+    display: inline-block;
+    padding: 2% 4% 2% 4%;
+    margin-top: 4%;
+    width: 50%;
+}
+
+.blackBorder {
+    border: black solid 1px;
+}
+
+.slightlyTransparent {
+    opacity: 0.98;
+}
+
+#chapterContent {
+    margin-top: 3.5%;
+}
+
+#nextChapter {
+    background-color: #f6e6de;
+    margin-top: 3%;
+    width: 100%;
+    font-size: 1em;
+}
+
+
+html, body, #app, #app > div {
+    height: 100%;
+}

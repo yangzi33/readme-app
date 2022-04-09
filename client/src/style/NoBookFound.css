@@ -1,0 +1,17 @@
+.noBookFoundBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+    height: 200px;
+}
+
+.noBookFoundText {
+    font-family: sans-serif;
+    text-shadow: -1px 1px 0 #000,
+                 1px 1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px -1px 0 #000;
+    color: white;
+    font-size: 100px;
+}

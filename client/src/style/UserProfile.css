@@ -1,0 +1,236 @@
+.UserProfile {
+    background-image: url("../assets/Background-4.png");
+    background-size: cover;
+    background-color: white;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    min-height: 100%;
+    
+   
+}
+
+#profileContainer {
+    display: flex;
+}
+
+#info {
+    margin-bottom: 10px;
+    margin-left: 10%;
+ }
+
+#profileData {
+    z-index: 0;
+    top: 10%;
+    width: 25%;
+    position: absolute;
+    /* border-style: solid; */
+    border-color: gray;
+    /* padding: 15px; */
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    background-color: rgb(245, 245, 249);
+    overflow-y: auto;
+    max-height: 76%;
+}
+
+#profileSummary {
+    
+    display: inline-block;
+}
+
+
+.bannerPic {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+
+}
+
+#profileStats {
+    padding: 5px;
+    margin-left: 20%;
+}
+
+#profileStats ul {
+    padding: 3px;
+
+    /* Add properties below */
+    margin-left: 30%;
+
+}
+
+#profileStats ul li {
+    margin-right: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+
+    /* Add a proper display property: We want the stats to have
+    a height, but also appear side-by-side */
+
+    /*display: ;*/
+    display: inline-block;
+}
+
+.profileStatsNumber {
+    display: block;
+    font-size: 150%;
+
+}
+
+
+/*** Profile info box styles below ***/
+
+#profileInfo {
+    background-color: white;
+    padding-left: 262px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+
+}
+
+#profileIconImg {
+    width: 60%;
+}
+
+
+#list {
+    border-radius: 10px;
+    background-color: rgb(245, 245, 249);
+    max-height: 500px;
+    overflow: auto;
+    margin-left: 46%;
+    margin-top: 10px;
+    width: 500px;
+
+}
+
+.noBullets {
+    list-style-type: none;
+}
+
+.listHeader {
+
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+
+/* Style the big profile picture circle here. */
+#bigProfilePicCircle {
+
+    position: absolute;
+    border-radius: 50%;
+    top: 230px;
+    left: 100px;
+    width: 120px;
+    border: 2px solid white;
+}
+
+.blackBorder {
+    border: black solid 1px;
+}
+
+#clickable1 {
+    background-color: lightcoral;
+    padding: 1% 1% 1% 1%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#clickable1:hover {
+    opacity: 0.7;
+}
+
+#clickable2 {
+    background-color: lightyellow;
+    padding: 1% 1% 1% 1%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#clickable2:hover {
+    opacity: 0.7;
+}
+
+#clickable3 {
+    background-color: lightblue;
+    padding: 1% 1% 1% 1%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#clickable3:hover {
+    opacity: 0.7;
+}
+
+#clickable4 {
+    background-color: lightsalmon;
+    padding: 1% 1% 1% 1%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#clickable4:hover {
+    opacity: 0.7;
+}
+
+#panel {
+    cursor: pointer;
+}
+
+#panel:hover {
+    opacity: 0.7;
+}
+
+#sum {
+    margin-left: 20%;
+    border: 1px solid rgb(245, 245, 249);
+    background-color: rgb(245, 245, 249);
+    
+    width: 50%;
+    word-wrap: break-word;
+    
+}
+
+#logoutButton {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    width: 40px;
+    position: absolute;
+    top: 12%;
+    right: 7%;
+    cursor: pointer;
+}
+
+
+#adminRealButton {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 25%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#adminButton {
+    width: 60px;
+    position: absolute;
+    border-radius: 25%;
+    top: 20%;
+    right: 7%;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.alignVerticalCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.alignHorizontalCenter {
+    display: flex;
+    align-items: center;
+}
+
+.alignAllCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerOffset {
+    margin-left: 5%;
+    margin-right: 15%;
+}

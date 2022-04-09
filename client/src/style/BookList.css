@@ -1,0 +1,28 @@
+table,
+th {
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+}
+
+.bookTable {
+    width: 100%;
+}
+
+ul#bookList li {
+    display: inline;
+}
+
+#menu li {
+    display: inline-flex;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.bookListWrapper {
+    margin-top: auto;
+}

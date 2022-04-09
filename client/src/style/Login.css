@@ -1,0 +1,75 @@
+.loginBar {
+    display: inline-block;
+    padding: 2% 4% 3% 4%;
+    margin-top: 6%;
+    background-color: lightgrey;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2));
+    opacity: 0.9;
+    width: 20%;
+}
+
+#signupBar {
+    margin-top: 2.5%;
+}
+
+.loginTitle {
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 18%;
+}
+
+.logoIcon {
+    width: 4em;
+    height: 4em;
+    margin-left: 5%
+}
+
+.loginBackground {
+    background-image: url("../../src/assets/Background-3.png");
+    background-size: cover;
+    min-height: 100%;
+}
+
+.loginInput {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#rememberInput {
+    float: left;
+    margin-right: 2%;
+}
+
+#rememberText {
+    color: #be2e0f;
+}
+
+#resetPassword {
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 15%;
+}
+
+.warning {
+    color: red;
+}
+
+#multiWarning {
+    white-space: pre-wrap;
+}
+
+.loginButton {
+    width: 100%;
+    font-size: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#signInButton {
+    background-color: rgb(241, 228, 203);
+}
+
+#signUpButton {
+    background-color: rgb(241, 219, 203);
+}

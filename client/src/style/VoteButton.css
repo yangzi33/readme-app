@@ -1,0 +1,9 @@
+.voteButton {
+    width: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#voteText {
+    font-size: 0.9em;
+}

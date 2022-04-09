@@ -1,0 +1,54 @@
+.FollowingDisplay {
+    background-color: rgb(245, 245, 249);
+
+
+    width: 400px;
+    min-height: 120px;
+    overflow: auto;
+    border-bottom: 1px solid grey;
+
+}
+
+/* For the div that holds the tweet icon */
+.iconContainer {
+
+
+    width: 80px;
+    float: left;
+
+
+}
+
+.icon {
+
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+
+
+}
+
+.followingName {
+    margin: 0px;
+
+    width: 300px;
+    float: right;
+
+
+}
+
+
+.remove {
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+

@@ -1,0 +1,48 @@
+.fullWidth {
+    width: 100%;
+}
+
+
+#textInput {
+    width: 98%;
+    border: 2px solid darkgray;
+    resize: none;
+}
+
+#infoBar {
+    align-self: flex-start;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    background-color: rgb(245, 245, 249);
+    opacity: 0.97;
+    width: 16%;
+    border: black solid 1px;
+}
+
+#chapterSelect {
+    margin-left: 2%;
+}
+
+#infoText {
+    display: inline-block;
+    margin-top: 2%;
+    font-size: 1.1em;
+}
+
+#addComment {
+    background-color: #fadf89;
+    font-size: 0.84em;
+}
+
+#cancelComment {
+    background-color: #ea8f97;
+    font-size: 0.84em;
+}
+
+#exitBookView {
+    background-color: #f3cbd9;
+    font-size: 0.84em;
+}

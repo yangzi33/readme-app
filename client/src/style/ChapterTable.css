@@ -1,0 +1,41 @@
+/* #chapterPreview {
+    text-align: center;
+  } */
+
+#previewContent{
+    width: auto;
+    display: block;
+}
+.preview{
+    border-bottom: 1px solid gray;
+}
+#chapters-fit{
+    /* width: 1%; */
+    float: left;
+    clear: both;
+
+    /* border-style: solid; */
+    border-color: gray;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    /* background-color:rgb(245, 245, 249); */
+
+}
+#chapterTitle1{
+    /* display: inline-block; */
+    min-width: 30%;
+    color: darkblue;
+}
+.cursorGrab1 :hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16) 0 0);
+    cursor: pointer;
+}
+.ctable{
+    table-layout: fixed;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+/* .ctable tr:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16) 0 0);
+} */

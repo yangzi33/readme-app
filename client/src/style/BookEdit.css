@@ -1,0 +1,92 @@
+#newtag {
+    background: transparent;
+    border: none;
+    width: 50%;
+    outline: none;
+    text-align: center;
+}
+
+#chaptername {
+    background: transparent;
+    border: none;
+    width: 50%;
+    outline: none;
+    font-size: 0.8em;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+#growable {
+    width: 90%;
+    height: 90%;
+    resize: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+}
+
+.boldable {
+    font-weight: bold;
+}
+
+#chaptercontent {
+    resize: none;
+    width: 85%;
+}
+
+.tinyLeftMargin {
+    margin-left: 20px;
+}
+
+#summaryEdit {
+    opacity: 0.8;
+
+    background-color: #F7FCFB;
+
+    margin-left: 40px;
+    width: 60%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 7px;
+
+    border: 1px solid gray;
+}
+
+#chapterListing {
+    opacity: 0.9;
+
+    background-color: #F7FCFB;
+
+    margin-left: 20px;
+    width: 81%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 7px;
+
+    border: 1px solid gray;
+}
+
+.minHeightRow {
+    height: 470px;
+}
+
+#BookCover2 {
+    width: 20%;
+}
+
+#summary p {
+    white-space: pre-wrap;
+}
+
+#maincomponent {
+    padding-bottom: 2%;
+}

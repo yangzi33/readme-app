@@ -1,0 +1,74 @@
+.ProfileBookDisplay {
+    background-color: rgb(245, 245, 249);
+
+
+    width: 400px;
+    min-height: 120px;
+    overflow: auto;
+    border-bottom: 1px solid grey;
+
+}
+
+/* For the div that holds the tweet icon */
+.bookCoverContainer {
+
+
+    width: 80px;
+    float: left;
+
+
+}
+
+.bookCover {
+
+
+    border-radius: 15px;
+    width: 60px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+
+
+}
+
+.bookTitle {
+    margin: 0px;
+
+
+    width: 300px;
+    float: right;
+
+
+}
+
+.buttons {
+    margin-left: 100px;
+}
+
+#remove {
+    background-color: lightcoral;
+
+    margin-top: 2px;
+    margin-left: 2px;
+
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+#remove:hover {
+    opacity: 0.3;
+
+}
+
+#view {
+    background-color: lightyellow;
+    margin-bottom: 5px;
+
+    cursor: pointer;
+
+}
+

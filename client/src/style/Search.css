@@ -1,0 +1,62 @@
+h2.recommendation-header {
+    text-align: left;
+}
+
+.search-textfield {
+    width: 480px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.search-field-wrapper {
+    text-align: center;
+}
+
+#notFoundText {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.search-form_button-grid {
+    line-height: 3;
+    margin-left: 20px;
+}
+
+.search-form {
+    justify-content: center;
+}
+
+.searchButton {
+    height: 30px;
+    width: 100px;
+    margin-left: 2em;
+    background-color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.searchPage {
+    background-image: url("../../src/assets/Background-4.png");
+    background-size: cover;
+    /* align-items: center; */
+    background-position: center; 
+    min-height: 100%;
+}
+
+.searchTitle {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+                 1px 1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px -1px 0 #000;
+    margin-top: 50px;
+}

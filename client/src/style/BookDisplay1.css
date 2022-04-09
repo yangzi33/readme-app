@@ -1,0 +1,57 @@
+.view-book-button {
+    border-radius: 5px;
+    background-color: white;
+    border-style: groove;
+    border-color: lightgrey;
+    width: 310px;
+    height: 2em;
+}
+
+.view-book-button-wrapper {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.view-book-button:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16) 0 0);
+}
+
+body,
+html {
+    font-family: "Georgia";
+    /* background-color: ; */
+}
+
+.bookCard {
+    width: 280px;
+    display: block;
+    margin: 60px auto;
+}
+
+.bookCard-image {
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.bookCard-body {
+    padding: 15px;
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 300px;
+}
+
+.bookDescription {
+    padding-bottom: 40px;
+    padding-left: 5px;
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.bookImage {
+    background-image: "";
+}
