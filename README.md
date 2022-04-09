@@ -4,11 +4,6 @@
 
 https://readme-csc309.herokuapp.com/
 
-## NOTE TO TA: READ BELOW:
-### We submitted on the 6th. Commit to Grade: 938ecdf1a58819e0348e91b2936a7fa9e13ffca3
-
-Link to commit: https://github.com/csc309-winter-2022/team24/tree/938ecdf1a58819e0348e91b2936a7fa9e13ffca3
-
 ## How to setup web app locally:
 
 Pre-req: Have node/npm installed.
