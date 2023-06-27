@@ -1,4 +1,4 @@
-# CSC309 Project: "ReadMe"
+# ReadMe - A Browser Book Reader
 
 ## Web app URL:
 
